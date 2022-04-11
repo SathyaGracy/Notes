@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Zeyaly Notes</string>
+    <string name="lock">Use code lock to protect your note</string>
+</resources>

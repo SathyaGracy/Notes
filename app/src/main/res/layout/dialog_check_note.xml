@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:id="@+id/lt_main"
+        android:background="@color/colorPrimary"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        android:layout_marginBottom="?actionBarSize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <View
+            android:background="@color/ViewColor"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_1sdp">
+
+        </View>
+        <RelativeLayout
+            android:id="@+id/NoteLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:padding="@dimen/_8sdp">
+            <ImageView
+                android:id="@+id/bookingImg"
+                android:layout_width="wrap_content"
+                android:src="@mipmap/note"
+                android:layout_centerVertical="true"
+                android:tint="@color/txt_color"
+                android:layout_height="wrap_content">
+
+            </ImageView>
+
+            <com.zeyaly.notes.utils.CustomTextViewBold
+                android:layout_toRightOf="@+id/bookingImg"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_height="wrap_content"
+                android:text="Notes"
+                android:layout_centerVertical="true"
+                android:textColor="@color/txt_color"
+                android:textSize="@dimen/_11sdp" />
+
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/CheckListLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:padding="@dimen/_8sdp">
+            <ImageView
+                android:id="@+id/collectionImg"
+                android:layout_width="wrap_content"
+                android:src="@mipmap/checkboxx"
+                android:layout_centerVertical="true"
+                android:tint="@color/txt_color"
+                android:layout_height="wrap_content">
+
+            </ImageView>
+
+            <com.zeyaly.notes.utils.CustomTextViewBold
+                android:layout_toRightOf="@+id/collectionImg"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_height="wrap_content"
+                android:text="Check Box"
+                android:layout_centerVertical="true"
+                android:textColor="@color/txt_color"
+                android:textSize="@dimen/_11sdp" />
+
+
+
+        </RelativeLayout>
+
+        <View
+            android:background="@color/ViewColor"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_1sdp">
+
+        </View>
+    </LinearLayout>
+
+
+</RelativeLayout>

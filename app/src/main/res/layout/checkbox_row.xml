@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <CheckBox
+                android:id="@+id/check_box"
+                android:buttonTint="@color/txt_medium_color"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            </CheckBox>
+            <com.zeyaly.notes.utils.CustomEditTextviewSemiLight
+                android:layout_width="match_parent"
+                android:layout_marginRight="@dimen/_50sdp"
+                android:id="@+id/title"
+                android:inputType="text"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/check_box"
+                android:maxLines="1"
+                android:maxLength="30"
+                android:hint=""
+                android:textSize="@dimen/_12sdp"
+                android:background="@android:color/transparent"
+                android:textColor="@color/blue"
+                android:textColorHint="@color/txt_medium_color"
+                android:layout_height="wrap_content">
+
+            </com.zeyaly.notes.utils.CustomEditTextviewSemiLight>
+            <RelativeLayout
+                android:id="@+id/close_layout"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:layout_centerVertical="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/close"
+                    android:layout_width="wrap_content"
+                    android:tint="@color/txt_medium_color"
+                    android:src="@mipmap/close"
+                    android:layout_height="wrap_content">
+
+                </ImageView>
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+</layout>

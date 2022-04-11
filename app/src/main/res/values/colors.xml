@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#fff</color>
+    <color name="colorPrimaryDark">#fff</color>
+    <color name="colorAccent">#fff</color>
+    <color name="txt_medium_color">#A8ACBB</color>
+    <color name="txt_full_color">#1C1D1E</color>
+    <color name="txt_heading_color">#333940</color>
+    <color name="login_border">#707070</color>
+    <color name="button_login">#1C1D1E</color>
+    <color name="view_color">#D8D8D8</color>
+    <color name="color_view">#1AD8D8D8</color>
+    <color name="list_back_ground">#FAFAFA</color>
+    <color name="lite_red_color">#FFF0D7</color>
+    <color name="dark_pink_color">#FE5886</color>
+    <color name="button_color">#17AC5A</color>
+    <color name="shade">#73cd9c</color>
+    <color name="button_colortra">#17AC59</color>
+    <color name="circle_solid">#F8F7F7</color>
+    <color name="blue_color">#623BFF</color>
+    <color name="interst_view_color">#F2EEFF</color>
+    <color name="yellow_color">#F5A623</color>
+    <color name="txt_color">#757778</color>
+    <color name="blue">#1f315e</color>
+    <color name="text">#475986</color>
+    <color name="grey_border_color">#C5C6C6</color>
+    <color name="greybackground_color">#F8F9FC</color>
+    <color name="back_ground_color">#F4F4F4</color>
+    <color name="ViewColor">#f2f2f2</color>
+    <color name="textcolorr">#babdcf</color>
+    <color name="skyBlue">#2bc3d1</color>
+
+
+
+    <item name="blu" type="color">#FF33B5E5</item>
+    <item name="purple" type="color">#FFAA66CC</item>
+    <item name="green" type="color">#FF99CC00</item>
+    <item name="orange" type="color">#FFFFBB33</item>
+    <item name="red" type="color">#FFFF4444</item>
+    <item name="darkblue" type="color">#FF0099CC</item>
+    <item name="darkpurple" type="color">#FF9933CC</item>
+    <item name="darkgreen" type="color">#FF669900</item>
+    <item name="darkorange" type="color">#FFFF8800</item>
+    <item name="darkred" type="color">#FFCC0000</item>
+
+    <integer-array name="androidcolors">
+        <item>@color/blue</item>
+        <item>@color/purple</item>
+        <item>@color/green</item>
+        <item>@color/orange</item>
+        <item>@color/red</item>
+        <item>@color/darkblue</item>
+        <item>@color/darkpurple</item>
+        <item>@color/darkgreen</item>
+        <item>@color/darkorange</item>
+        <item>@color/darkred</item>
+    </integer-array>
+</resources>
